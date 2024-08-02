@@ -7,7 +7,7 @@ background-image: url();
     background-repeat: no-repeat;
     background-position: top left;
     margin: 0;	
-font-family: "Roboto Mono", monospace;
+font-family: "Roboto", sans-serif;
 font-size: 11.00px;
 background-color: #000000 !important;
 
@@ -15,7 +15,7 @@ background-color: #000000 !important;
 
 
 #mal_control_strip td div, #mal_control_strip a  {
-	font-family: Consolas !important;
+	font-family: "Roboto", sans-serif !important;
 	color: #9B9B9B !important;
 	font-size: 8px;
 	text-decoration: none !important;
@@ -24,7 +24,7 @@ background-color: #000000 !important;
 #mal_cs_powered #search #searchBox {
     width: 125px;
     font-size: 10px;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Roboto", sans-serif;
 }
 
 /*INPUT SEARCH BOX TOP RIGHT COLOR REPLACEMENT*/
@@ -92,7 +92,7 @@ color:#212121 !important;
 REMOVE LINES FROM MENU BAR
 */
 #mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
-    font-family: "Roboto Mono", monospace !important;
+    font-family: "Roboto", sans-serif !important;
     border-right: 0 none !important;
 }
 
@@ -101,12 +101,12 @@ TOP MENU BAR ADVANCED CUSTOMIZATION
 */
 #mal\_cs\_listinfo {
 background:#212121 !important;
-font-family: "Roboto Mono", monospace !important;
+font-family: "Roboto", sans-serif !important;
 }
 
 #mal\_cs\_otherlinks {
 background: #212121;
-font-family: "Roboto Mono", monospace !important;
+font-family: "Roboto", sans-serif !important;
 }
 
 #mal\_cs\_powered a {
@@ -131,7 +131,7 @@ Keep this on the bottom if you want to keep the top bar fixed to the top.
 */
 #mal\_control\_strip
 {
-font-family: "Roboto Mono", monospace !important;
+font-family: "Roboto", sans-serif !important;
 position: fixed !important;
 }
 
