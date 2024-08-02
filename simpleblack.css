@@ -520,7 +520,7 @@ type,chapters box width
 */
 
 .td1:nth-of-type(3), .td2:nth-of-type(3){
-width: 55px;
+width: 45px;
 }
 
 /*
@@ -528,7 +528,7 @@ type,chapters header width
 */
 
 .table_header:nth-of-type(3) {
-width: 55px;
+width: 45px;
 }
 
 /*
@@ -536,7 +536,7 @@ progress/type manga box width
 */
 
 .td1:nth-of-type(4), .td2:nth-of-type(4){
-width: 55px;
+width: 45px;
 }
 
 /*
@@ -544,7 +544,7 @@ progress/type manga header width
 */
 
 .table_header:nth-of-type(4) {
-width: 55px;
+width: 45px;
 }
 /*
 tags box width
