@@ -487,7 +487,7 @@ anime title's box width
 */
 
 .td1:nth-of-type(2), .td2:nth-of-type(2){
-width:260px;
+width:200px;
 }
 
 /*
@@ -495,7 +495,7 @@ anime title's header width
 */
 
 .table_header:nth-of-type(2) {
-width:260px;
+width:200px;
 }
 
 /*
