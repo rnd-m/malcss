@@ -551,7 +551,7 @@ tags box width
 */
 
 .td1:nth-of-type(5), .td2:nth-of-type(5){
-width:px;
+width:160px;
 font-size:px;
 }
 
@@ -560,7 +560,7 @@ tags header width
 */
 
 .table_header:nth-of-type(5) {
-width:px;
+width:160px;
 }
 
 
