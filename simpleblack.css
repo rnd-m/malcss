@@ -24,7 +24,7 @@ background-color: #000000 !important;
 #mal_cs_powered #search #searchBox {
     width: 125px;
     font-size: 10px;
-	font-family: Consolas;
+	font-family: Roboto;
 }
 
 /*INPUT SEARCH BOX TOP RIGHT COLOR REPLACEMENT*/
@@ -92,7 +92,7 @@ color:#212121 !important;
 REMOVE LINES FROM MENU BAR
 */
 #mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
-	font-family: Consolas !important;
+	font-family: Roboto !important;
     border-right: 0 none !important;
 }
 
@@ -102,12 +102,12 @@ TOP MENU BAR ADVANCED CUSTOMIZATION
 #mal\_cs\_listinfo {
 background:#212121 !important;
 
-font-family: Consolas !important;
+font-family: Roboto !important;
 }
 
 #mal\_cs\_otherlinks {
 background: #212121;
-font-family: Consolas !important;
+font-family: Roboto !important;
 }
 
 #mal\_cs\_powered a {
@@ -121,7 +121,7 @@ background:violet !important;
 }
 
 td#mal_cs_links{
-font-family: Consolas !important;
+font-family: Roboto !important;
 background: #212121;
 
 }
@@ -132,7 +132,7 @@ Keep this on the bottom if you want to keep the top bar fixed to the top.
 */
 #mal\_control\_strip
 {
-font-family: Consolas !important;
+font-family: Roboto !important;
 position: fixed !important;
 }
 
