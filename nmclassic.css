@@ -7,7 +7,7 @@ background-image: url();
     background-repeat: no-repeat;
     background-position: top left;
     margin: 0;	
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 font-size: 12.00px;
 background-color: #000000 !important;
 
@@ -15,7 +15,7 @@ background-color: #000000 !important;
 
 
 #mal_control_strip td div, #mal_control_strip a  {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 	font-size: 10px;
 	text-decoration: none !important;
     color:#5F6595 !important;
@@ -32,7 +32,7 @@ background-color: #000000 !important;
 #mal_cs_powered #search #searchBox {
   width: 125px;
   font-size: 10px;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #22263A;
   color: #5F6595;
   border-color: #5F6595;
