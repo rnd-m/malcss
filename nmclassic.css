@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body
 	{
 background-image: url();
@@ -8,7 +8,7 @@ background-image: url();
     background-position: top left;
     margin: 0;	
   font-family: "Roboto", sans-serif;
-font-size: 12.00px;
+font-size: 13.00px;
 background-color: #000000 !important;
 
 }
@@ -163,7 +163,7 @@ border-top: 16px solid #55537F;
 #list_surround {
 margin-left: 88px !important;
 width:820px !important;
-padding-top:21px;
+padding-top:22px;
 }
 
 /*Scrollbar*/
