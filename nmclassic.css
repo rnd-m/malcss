@@ -170,7 +170,7 @@ padding-top:28px;
 
 /* width */
 ::-webkit-scrollbar {
-  width: 50px !important;
+  width: 10px !important;
 }
 
 /* Track */
