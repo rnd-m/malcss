@@ -1,3 +1,19 @@
+td a[href="/anime/58066/Sorairo_Utility_TV"]{
+font-size: 0;
+}
+td a[href="/anime/58066/Sorairo_Utility_TV"]:before{
+content:"Sorairo Utility ";
+font-size: 12px;
+}
+
+td a[href="/anime/50209/Sorairo_Utility"]{
+font-size: 0;
+}
+td a[href="/anime/50209/Sorairo_Utility"]:before{
+content:"Sorairo Utility Special ";
+font-size: 12px;
+}
+
 td a[href="/anime/53434/Maou_no_Ore_ga_Dorei_Elf_wo_Yome_ni_Shitanda_ga_Dou_Medereba_Ii"]{
 font-size: 0;
 }
