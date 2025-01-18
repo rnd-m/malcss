@@ -16,3 +16,16 @@ body
 	text-decoration: none !important;
 	color:#red !important;
 }
+
+/*INPUT SEARCH BOX TOP RIGHT COLOR REPLACEMENT*/
+
+#mal_cs_powered #search #searchBox {
+  	width: 125px;
+	font-size: 10px;
+ 	font-family: "Roboto", sans-serif;
+ 	background: #22263A;
+ 	color: #5F6595;
+ 	border-color: #5F6595;
+ 	border-style: solid;
+	border-width: 1px;
+}
