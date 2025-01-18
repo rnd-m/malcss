@@ -190,25 +190,25 @@ padding-top:28px;
 }
 
 /*
-// All links on your list
+// All links on your list (old - #8E95BA)
 */
 
 a
 {
-color: #8E95BA;
+color: #00BFFF; 
 text-decoration: none;
 }
 
 a:visited
 {
-color: #8E95BA;
+color: #00BFFF;
 
 text-decoration: none;
 }
 
 a:hover
 {
-color: #8E95BA;
+color: #00BFFF;
 
 text-decoration: underline;
 }
