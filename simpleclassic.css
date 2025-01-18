@@ -51,3 +51,87 @@ img.lazyloaded {
 	display:none !important;
 }
 
+
+
+#copyright {
+color:#22263A !important;
+}
+
+#recaptcha-terms {
+display:none !important;
+color:#FFFFFF !important;
+}
+
+
+td.category_totals {
+color:#22263A !important;
+}
+
+
+/*
+REMOVE LINES FROM MENU BAR
+*/
+#mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
+	font-family: Consolas !important;
+    border-right: 0 none !important;
+}
+
+/*
+TOP MENU BAR ADVANCED CUSTOMIZATION
+*/
+#mal\_cs\_listinfo {
+background:#22263A !important;
+
+font-family: Consolas !important;
+}
+
+#mal\_cs\_otherlinks {
+background: #22263A;
+font-family: Consolas !important;
+}
+
+#mal\_cs\_powered a {
+display:none;
+background:yellow !important;
+}
+
+#searchListButton {
+display:none;
+background:violet !important;
+}
+
+td#mal_cs_links{
+font-family: Consolas !important;
+background: #22263A;
+
+}
+
+/*
+FIX MENU BAR TO THE TOP
+Keep this on the bottom if you want to keep the top bar fixed to the top.
+*/
+#mal\_control\_strip
+{
+font-family: Consolas !important;
+position: fixed !important;
+}
+
+/* MINIMIZED LIST TABLE
+Right and top control the position of the table on the page. The percentage after is how far the list goes across the page from the right or top of the page. For example, right: 50%; moves the list 50% across the page from the right. You can change "right" to "left" to position it from the right instead of the left. Width and height control the width and height of your list, keep it smaller than your screen so the table stays minimal.
+*/
+/*
+#list_surround {
+background: none repeat scroll 0 0 #ECEBF1;	
+left: 88px !important;
+top: 100px !important;
+padding-top: 0px;
+width: 820px;
+height: 800px;
+overflow-y: scroll;
+position: fixed;
+border-right: 3px solid #55537F;
+border-left: 3px solid #55537F;
+border-bottom: 3px solid #55537F;
+border-top: 16px solid #55537F;
+}
+*/
