@@ -29,3 +29,25 @@ body
  	border-style: solid;
 	border-width: 1px;
 }
+		
+/* REMOVE CAPTCHA  */
+
+.grecaptcha-badge { visibility: hidden; }
+#recaptcha-terms {
+display:none !important;
+ }
+ 
+
+td#mal_cs_pic {
+	display:none !important;
+}
+
+img.lazyloaded {
+    	background: #2E51A2;
+	display:none !important;
+}
+		
+#mal_control_strip img  {
+	display:none !important;
+}
+
