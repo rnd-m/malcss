@@ -566,6 +566,8 @@ tags header width
 width:170px;
 }
 
-
-
+/*COLORED TAGS*/
+span[id^="tagLinks"] a[href$="✔"] {
+  color: #3d943f;
+}
 
