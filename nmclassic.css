@@ -436,7 +436,7 @@ color: #22263A;
     font-size: 11px !important;
 }
 
-
+/*
 div > small {
     font-size: 0 !important;
 }
@@ -446,8 +446,8 @@ div > small:before {
     font-size: 11px !important;
 color:#22263A;
 }
-
-
+*/
+/*
 #list_surround small a {
     font-size: 0 !important;
 }
@@ -456,7 +456,7 @@ color:#22263A;
     font-size: 11px !important;
  color:#22263A;
 }
-
+*/
 [href="javascript:void(0);"] > small {
     font-size: 0 !important;
 }
