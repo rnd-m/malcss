@@ -452,9 +452,9 @@ color:#22263A;
     font-size: 0 !important;
 }
 #list_surround small a:before {
-    content: " - ";
+    content: " — ";
     font-size: 11px !important;
- color:#22263A;
+ color:#535D8D;
 }
 
 [href="javascript:void(0);"] > small {
