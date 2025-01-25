@@ -3003,4 +3003,11 @@ content:"~ Delivery Knight ";
 font-size: 12px;
 }
 
+td a[href="/manga/161061/Maru-kun__Hataraku_Maltese"]{
+font-size: 0;
+}
+td a[href="/manga/161061/Maru-kun__Hataraku_Maltese"]:before{
+content:"~ Martial Peak ";
+font-size: 12px;
+}
 
