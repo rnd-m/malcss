@@ -504,38 +504,22 @@ width: 240px;
 /*
 score box width
 */
-/*
+
 .td1:nth-of-type(3), .td2:nth-of-type(3){
 width: 30px;
 }
-*/
+
 /*
 score header width
 */
-/*
+
 .table_header:nth-of-type(3) {
 width: 30px;
 }
 
-*/
+
 /*
 type,chapters box width
-*/
-
-.td1:nth-of-type(3), .td2:nth-of-type(3){
-width: 55px;
-}
-
-/*
-type,chapters header width
-*/
-
-.table_header:nth-of-type(3) {
-width: 55px;
-}
-
-/*
-progress/type manga box width
 */
 
 .td1:nth-of-type(4), .td2:nth-of-type(4){
@@ -543,31 +527,75 @@ width: 55px;
 }
 
 /*
-progress/type manga header width
+type,chapters header width
 */
 
 .table_header:nth-of-type(4) {
 width: 55px;
 }
+
+/*
+progress/type manga box width
+*/
+
+.td1:nth-of-type(5), .td2:nth-of-type(5){
+width: 55px;
+}
+
+/*
+progress/type manga header width
+*/
+
+.table_header:nth-of-type(5) {
+width: 55px;
+}
+/*
+start date bow width
+*/
+
+.td1:nth-of-type(6), .td2:nth-of-type(6){
+width: 40px;
+}
+
+/*
+start date header width
+*/
+
+.table_header:nth-of-type(6) {
+width: 40px;
+}
+
+/*
+end date bow width
+*/
+
+.td1:nth-of-type(7), .td2:nth-of-type(7){
+width: 40px;
+}
+
+/*
+end date header width
+*/
+
+.table_header:nth-of-type(7) {
+width: 40px;
+}
+
 /*
 tags box width
 */
-
+/*
 .td1:nth-of-type(5), .td2:nth-of-type(5){
 width:170px;
 
 }
-
+*/
 /*
 tags header width
 */
-
+/*
 .table_header:nth-of-type(5) {
 width:170px;
 }
-
-/*COLORED TAGS*/
-span[id^="tagLinks"] a[href$="✔"] {
-  color: #3d943f;
-}
+*/
 
