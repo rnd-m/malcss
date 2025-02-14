@@ -523,7 +523,7 @@ type,chapters box width
 */
 
 .td1:nth-of-type(4), .td2:nth-of-type(4){
-width: 55px;
+width: 45px;
 }
 
 /*
@@ -531,7 +531,7 @@ type,chapters header width
 */
 
 .table_header:nth-of-type(4) {
-width: 55px;
+width: 45px;
 }
 
 /*
@@ -539,7 +539,7 @@ progress/type manga box width
 */
 
 .td1:nth-of-type(5), .td2:nth-of-type(5){
-width: 55px;
+width: 45px;
 }
 
 /*
@@ -547,14 +547,14 @@ progress/type manga header width
 */
 
 .table_header:nth-of-type(5) {
-width: 55px;
+width: 45px;
 }
 /*
 start date bow width
 */
 
 .td1:nth-of-type(6), .td2:nth-of-type(6){
-width: 40px;
+width: 50px;
 }
 
 /*
@@ -562,7 +562,7 @@ start date header width
 */
 
 .table_header:nth-of-type(6) {
-width: 40px;
+width: 50px;
 }
 
 /*
@@ -570,7 +570,7 @@ end date bow width
 */
 
 .td1:nth-of-type(7), .td2:nth-of-type(7){
-width: 40px;
+width: 50px;
 }
 
 /*
@@ -578,7 +578,7 @@ end date header width
 */
 
 .table_header:nth-of-type(7) {
-width: 40px;
+width: 50px;
 }
 
 /*
