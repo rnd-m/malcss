@@ -498,7 +498,7 @@ anime title's header width
 */
 
 .table_header:nth-of-type(2) {
-width: 240px;
+width:240px;
 }
 
 /*
@@ -506,7 +506,7 @@ score box width
 */
 
 .td1:nth-of-type(3), .td2:nth-of-type(3){
-width: 30px;
+width: 35px;
 }
 
 /*
@@ -514,7 +514,7 @@ score header width
 */
 
 .table_header:nth-of-type(3) {
-width: 30px;
+width: 35px;
 }
 
 
@@ -523,7 +523,7 @@ type,chapters box width
 */
 
 .td1:nth-of-type(4), .td2:nth-of-type(4){
-width: 45px;
+width: 50px;
 }
 
 /*
@@ -531,7 +531,7 @@ type,chapters header width
 */
 
 .table_header:nth-of-type(4) {
-width: 45px;
+width: 50px;
 }
 
 /*
@@ -539,7 +539,7 @@ progress/type manga box width
 */
 
 .td1:nth-of-type(5), .td2:nth-of-type(5){
-width: 45px;
+width: 50px;
 }
 
 /*
@@ -547,7 +547,7 @@ progress/type manga header width
 */
 
 .table_header:nth-of-type(5) {
-width: 45px;
+width: 50px;
 }
 /*
 start date bow width
@@ -599,3 +599,30 @@ width:170px;
 }
 */
 
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a:before {
+    content: "★";
+    font-size: 12px !important;
+}
+
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(6) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(6) > strong > a:before {
+    content: "Start";
+    font-size: 12px !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(7) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(7) > strong > a:before {
+    content: "End";
+    font-size: 12px !important;
+}
