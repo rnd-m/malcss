@@ -523,7 +523,7 @@ type,chapters box width
 */
 
 .td1:nth-of-type(4), .td2:nth-of-type(4){
-width: 50px;
+width: 55px;
 }
 
 /*
@@ -531,7 +531,7 @@ type,chapters header width
 */
 
 .table_header:nth-of-type(4) {
-width: 50px;
+width: 55px;
 }
 
 /*
@@ -539,7 +539,7 @@ progress/type manga box width
 */
 
 .td1:nth-of-type(5), .td2:nth-of-type(5){
-width: 50px;
+width: 55px;
 }
 
 /*
@@ -547,58 +547,27 @@ progress/type manga header width
 */
 
 .table_header:nth-of-type(5) {
-width: 50px;
-}
-/*
-start date bow width
-*/
-
-.td1:nth-of-type(6), .td2:nth-of-type(6){
-width: 50px;
-}
-
-/*
-start date header width
-*/
-
-.table_header:nth-of-type(6) {
-width: 50px;
-}
-
-/*
-end date bow width
-*/
-
-.td1:nth-of-type(7), .td2:nth-of-type(7){
-width: 50px;
-}
-
-/*
-end date header width
-*/
-
-.table_header:nth-of-type(7) {
-width: 50px;
+width: 55px;
 }
 
 /*
 tags box width
 */
-/*
-.td1:nth-of-type(5), .td2:nth-of-type(5){
-width:170px;
+
+.td1:nth-of-type(6), .td2:nth-of-type(6){
+width:100px;
 
 }
-*/
+
 /*
 tags header width
 */
-/*
-.table_header:nth-of-type(5) {
-width:170px;
-}
-*/
 
+.table_header:nth-of-type(6) {
+width:100px;
+}
+
+/*
 #list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a{
     font-size: 0 !important;
 }
@@ -626,3 +595,4 @@ width:170px;
     content: "End";
     font-size: 12px !important;
 }
+*/
