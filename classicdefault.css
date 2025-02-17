@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body
+	{
+background-image: url();
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 0;	
+  font-family: "Roboto", sans-serif;
+font-size: 17.00px;
+background-color: #000000 !important;
+
+}
+
+
+#mal_control_strip td div, #mal_control_strip a  {
+  font-family: "Roboto", sans-serif !important;
+	font-size: 10px;
+	text-decoration: none !important;
+    color:#5F6595 !important;
+}
+
+#mal_cs_powered #search #searchBox {
+    width: 125px;
+    font-size: 10px;
+	font-family: Consolas;
+}
+
+/*INPUT SEARCH BOX TOP RIGHT COLOR REPLACEMENT*/
+
+#mal_cs_powered #search #searchBox {
+  width: 125px;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  background: #22263A;
+  color: #5F6595;
+  border-color: #5F6595;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/*AIRING, REWATCHING, NOT YET AIRED - REPLACEMENT*/
+
+.animetitle + small {
+	font-size:px !important;
+	position:absolute;	
+	padding-top: 1.5px;
+	padding-left: 5px;
+}
+/*
+.animetitle + small:before {
+	content: "◉";
+    font-size: 11px !important;
+	color: #3CA2C4;
+}
+*/
+
+/* REMOVE CAPTCHA  */
+
+.grecaptcha-badge { visibility: hidden; }
+#recaptcha-terms {
+display:none !important;
+ }
+ 
+
+td#mal_cs_pic {
+display:none !important;
+}
+
+img.lazyloaded{
+    background: #2E51A2;
+display:none !important;
+
+}
+#mal_control_strip img  {
+display:none !important;
+}
+
+
+
+#copyright {
+color:#22263A !important;
+}
+
+#recaptcha-terms {
+display:none !important;
+color:#FFFFFF !important;
+}
+
+
+td.category_totals {
+color:#22263A !important;
+}
+
+
+/*
+REMOVE LINES FROM MENU BAR
+*/
+#mal\_cs\_pic, #mal\_cs\_listinfo, #mal\_cs\_links {
+	font-family: Consolas !important;
+    border-right: 0 none !important;
+}
+
+/*
+TOP MENU BAR ADVANCED CUSTOMIZATION
+*/
+#mal\_cs\_listinfo {
+background:#22263A !important;
+
+font-family: Consolas !important;
+}
+
+#mal\_cs\_otherlinks {
+background: #22263A;
+font-family: Consolas !important;
+}
+
+#mal\_cs\_powered a {
+display:none;
+background:yellow !important;
+}
+
+#searchListButton {
+display:none;
+background:violet !important;
+}
+
+td#mal_cs_links{
+font-family: Consolas !important;
+background: #22263A;
+
+}
+
+/*
+FIX MENU BAR TO THE TOP
+Keep this on the bottom if you want to keep the top bar fixed to the top.
+*/
+#mal\_control\_strip
+{
+font-family: Consolas !important;
+position: fixed !important;
+}
+
+/* MINIMIZED LIST TABLE
+Right and top control the position of the table on the page. The percentage after is how far the list goes across the page from the right or top of the page. For example, right: 50%; moves the list 50% across the page from the right. You can change "right" to "left" to position it from the right instead of the left. Width and height control the width and height of your list, keep it smaller than your screen so the table stays minimal.
+*/
+/*
+#list_surround {
+background: none repeat scroll 0 0 #ECEBF1;	
+left: 88px !important;
+top: 100px !important;
+padding-top: 0px;
+width: 820px;
+height: 800px;
+overflow-y: scroll;
+position: fixed;
+border-right: 3px solid #55537F;
+border-left: 3px solid #55537F;
+border-bottom: 3px solid #55537F;
+border-top: 16px solid #55537F;
+}
+*/
+
+
+
+#list_surround {
+margin-left: 88px !important;
+width:1200px !important;
+padding-top:28px;
+}
+
+/*Scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9EB6F6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #B4C6F8;
+}
+
+/*
+// All links on your list (old - #8E95BA)
+*/
+
+a
+{
+color: #8E95BA; 
+text-decoration: none;
+}
+
+a:visited
+{
+color: #8E95BA;
+
+text-decoration: none;
+}
+
+a:hover
+{
+color: #8E95BA;
+
+text-decoration: underline;
+}
+
+
+/*LIST BORDERS
+You can change the color of the border with border-color. You can increase the size of the border by increasing the px amount after any of the border-width codes. They're all set to 1px- make sure you increase all the border widths the same amount. Leave the border amounts that are set to zero alone. 
+*/
+
+/*
+// Alternating row color 1
+*/
+
+.td1
+{
+color: #5F6595;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #22263A;
+padding: 2px;
+background-color: #000;
+
+height:19px;
+}
+
+/*
+// Alternating row color 2
+*/
+
+.td2
+{
+color: #5F6595;
+border-width: 0px 1px 1px 0px;
+border-style: solid;
+border-color: #22263A;
+padding: 2px;
+background-color: #000;
+height:19px;
+}
+
+/*
+// This represents the "Anime Title", "Score", "# Eps" columns
+*/
+
+.table_header
+{
+height:17px;
+color: #9B9B9B;
+border-width: 1px 1px 1px 0px;
+border-style: solid;
+border-color: #22263A;
+background-color: #22263A;
+padding: 2px;
+}
+
+
+
+
+
+/* controls what styles you can give to all the anime titles in your list */
+.animetitle
+{
+    font-weight: bold;
+    /* font-size: 16px; */
+    /* line-height: 2.5em; */
+    /* color: #bbb; */
+    display: inline-block;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Currently watching */
+.status_not_selected > a[href*="status=1"], .status_selected > a[href*="status=1"] {
+font-size:0px !important;}
+.status_not_selected > a[href*="status=1"]:before, .status_selected > a[href*="status=1"]:before 
+{
+	content: "~";
+    font-size: 15px !important;
+}
+
+/* Completed */
+.status_not_selected > a[href*="status=2"], .status_selected > a[href*="status=2"] {
+font-size:0px !important;}
+.status_not_selected > a[href*="status=2"]:before, .status_selected > a[href*="status=2"]:before 
+{
+	content: "C";
+    font-size: 15px !important;
+}
+
+/* On Hold */
+.status_not_selected > a[href*="status=3"], .status_selected > a[href*="status=3"] {
+font-size:0px !important;}
+.status_not_selected > a[href*="status=3"]:before, .status_selected > a[href*="status=3"]:before 
+{
+	content: "H";
+    font-size: 15px !important;
+}
+
+/* Dropped*/
+.status_not_selected > a[href*="status=4"], .status_selected > a[href*="status=4"] {
+font-size:0px !important;}
+.status_not_selected > a[href*="status=4"]:before, .status_selected > a[href*="status=4"]:before 
+{
+	content: "D";
+    font-size: 15px !important;
+}
+
+/* Plan to Watch*/
+.status_not_selected > a[href*="status=6"], .status_selected > a[href*="status=6"] {
+font-size:0px !important;}
+.status_not_selected > a[href*="status=6"]:before, .status_selected > a[href*="status=6"]:before 
+{
+	content: "P";
+    font-size: 15px !important;
+}
+
+/* ALL*/
+.status_not_selected > a[href*="status=7"], .status_selected > a[href*="status=7"] {
+font-size:0px !important;}
+.status_not_selected > a[href*="status=7"]:before, .status_selected > a[href*="status=7"]:before 
+{
+	content: "A";
+    font-size: 15px !important;
+}
+
+
+
+/* menu */
+
+.status_not_selected a, .status_selected a
+{
+background-color: #22263A;
+height: 25px;
+width: 20px;
+display: block !important;
+line-height: 25px;
+padding-left: 11px;
+text-decoration: none;
+}
+
+.status_selected a
+{
+background-color: #5F6595;
+color: #000000;
+font-size: 20px !important;
+height: 25px;
+width: 20px;
+line-height: 25px;
+padding-left: 11px;
+}
+
+.status_not_selected a:hover
+{
+background-color: #353B5A;
+height: 25px;
+width: 20px;
+line-height: 25px;
+padding-left: 11px;
+/*-moz-transition: .5s ease;
+-webkit-transition: .5s ease;
+-o-transition: .5s ease;*/
+}
+
+.status_selected a:hover
+{
+background-color: #767CA7;
+height: 25px;
+width: 20px;
+line-height: 25px;
+padding-left: 11px;
+/*-moz-transition: .5s ease;
+-webkit-transition: .5s ease;
+-o-transition: .5s ease;*/
+}
+
+.status_selected, .status_not_selected
+{
+position: fixed;
+text-align: left;
+left: 30px;
+top: 70px;
+}
+
+.status_selected + .status_not_selected, .status_not_selected + .status_selected, .status_not_selected + .status_not_selected
+{
+top: 95px;
+}
+
+.status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected
+{
+top: 120px;
+}
+
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected
+{
+top: 145px;
+}
+
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected
+{
+top: 170px;
+}
+
+.status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected
+{
+top: 195px;
+}
+
+/*HEADER TITLE*/
+
+.header_title {
+display: table-cell;
+background-color: #5F6595;
+text-transform:uppercase;
+width: 1200px;
+height:30px;
+font-size: 1.0em;
+font-weight:bold;
+color: #22263A;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+#mal_cs_links div:first-of-type a:first-of-type {
+    font-size: 0 !important;
+}
+#mal_cs_links div:first-of-type a:first-of-type:before {
+    content: "Add";
+    font-size: 11px !important;
+}
+
+
+div > small {
+    font-size: 0 !important;
+}
+
+div > small:before {
+    content: " ";
+    font-size: 11px !important;
+color:#22263A;
+}
+
+
+#list_surround small a {
+    font-size: 0 !important;
+}
+#list_surround small a:before {
+    content: " — ";
+    font-size: 11px !important;
+ color:#535D8D;
+}
+
+[href="javascript:void(0);"] > small {
+    font-size: 0 !important;
+}
+[href="javascript:void(0);"] > small:before {
+    content: "-";
+    font-size: 11px !important;
+ color:#22263A;
+
+}
+
+/*
+Number's box width
+*/
+
+.td1:nth-of-type(1), .td2:nth-of-type(1){
+width: 28px;
+}
+
+/*
+Number's header width
+*/
+
+.table_header:nth-of-type(1) {
+width: 28px;
+color:#9B9B9B;
+}
+
+
+/*
+anime title's box width
+*/
+
+.td1:nth-of-type(2), .td2:nth-of-type(2){
+width:400px;
+}
+
+/*
+anime title's header width
+*/
+
+.table_header:nth-of-type(2) {
+width:400px;
+}
+
+/*
+type,chapters box width
+*/
+
+.td1:nth-of-type(3), .td2:nth-of-type(3){
+width: 70px;
+}
+
+/*
+type,chapters header width
+*/
+
+.table_header:nth-of-type(3) {
+width: 70px;
+}
+
+/*
+progress/type manga box width
+*/
+
+.td1:nth-of-type(4), .td2:nth-of-type(4){
+width: 70px;
+}
+
+/*
+progress/type manga header width
+*/
+
+.table_header:nth-of-type(4) {
+width: 70px;
+}
+
+/*
+tags box width
+*/
+
+.td1:nth-of-type(5), .td2:nth-of-type(5){
+width:300px;
+
+}
+
+/*
+tags header width
+*/
+
+.table_header:nth-of-type(5) {
+width:300px;
+}
+
+/*
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a:before {
+    content: "★";
+    font-size: 12px !important;
+}
+
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(6) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(6) > strong > a:before {
+    content: "Start";
+    font-size: 12px !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(7) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(7) > strong > a:before {
+    content: "End";
+    font-size: 12px !important;
+}
+*/
