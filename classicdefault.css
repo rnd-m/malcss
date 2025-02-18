@@ -235,7 +235,7 @@ border-color: #22263A;
 padding: 2px;
 background-color: #000;
 
-height:19px;
+height:30px;
 }
 
 /*
@@ -250,7 +250,7 @@ border-style: solid;
 border-color: #22263A;
 padding: 2px;
 background-color: #000;
-height:19px;
+height:30px;
 }
 
 /*
@@ -259,7 +259,7 @@ height:19px;
 
 .table_header
 {
-height:17px;
+height:30px;
 color: #9B9B9B;
 border-width: 1px 1px 1px 0px;
 border-style: solid;
@@ -430,7 +430,7 @@ display: table-cell;
 background-color: #5F6595;
 text-transform:uppercase;
 width: 1200px;
-height:30px;
+height:35px;
 font-size: 1.0em;
 font-weight:bold;
 color: #22263A;
