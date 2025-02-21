@@ -462,7 +462,7 @@ Number's box width
 */
 
 .td1:nth-of-type(1), .td2:nth-of-type(1){
-width: 28px;
+width: 40px;
 }
 
 /*
@@ -470,7 +470,7 @@ Number's header width
 */
 
 .table_header:nth-of-type(1) {
-width: 28px;
+width: 40px;
 color:#9B9B9B;
 }
 
