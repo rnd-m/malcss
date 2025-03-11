@@ -338,7 +338,7 @@ padding: 2px;
     /* line-height: 2.5em; */
     /* color: #bbb; */
     display: inline-block;
-    max-width: 400px;
+    max-width: 350px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -560,7 +560,7 @@ anime title's box width
 */
 
 .td1:nth-of-type(2), .td2:nth-of-type(2){
-width:400px;
+width:350px;
 }
 
 /*
@@ -568,7 +568,7 @@ anime title's header width
 */
 
 .table_header:nth-of-type(2) {
-width:400px;
+width:350px;
 }
 
 /*
@@ -576,7 +576,7 @@ score box width
 */
 
 .td1:nth-of-type(3), .td2:nth-of-type(3){
-width: 30px;
+width: 40px;
 }
 
 /*
@@ -584,7 +584,7 @@ score header width
 */
 
 .table_header:nth-of-type(3) {
-width: 30px;
+width: 40px;
 }
 
 /*
