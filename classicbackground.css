@@ -2,13 +2,14 @@
 
 body
 	{
-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwIz31voKGEPjF7egLE_MUsy70mxTpGdhJOax49oM-DcS);
+background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwAO5zEz2Nf10NkKqH1LAtJr-HhmB3ahXAGYBux_XETlS);
 opacity: 0.7;   
-   background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top left;
-    margin: 0;	
-  font-family: "Roboto", sans-serif;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: top left;
+background-size: cover;
+margin: 0;	
+font-family: "Roboto", sans-serif;
 font-size: 15.00px;
 background-color: #000000 !important;
 
@@ -81,7 +82,24 @@ display:none !important;
 display:none !important;
 }
 
-
+/*
+#copyright
+{display: none !important;
+position: fixed;
+bottom: 33px;
+width: 375px;
+height: 16px !important;
+line-height: 16px;
+margin: auto;
+text-transform: uppercase;
+font-family: Verdana;
+font-size: 8px;
+background-color: #dfdfdf;
+color: #BCD9F0;
+border-top-right-radius: 4px;
+text-indent: 3px;
+cursor: default;}
+*/
 
 #copyright {
 color:#22263A !important;
@@ -92,11 +110,11 @@ display:none !important;
 color:#FFFFFF !important;
 }
 
-
+/*
 td.category_totals {
 color:#22263A !important;
 }
-
+*/
 
 /*
 REMOVE LINES FROM MENU BAR
@@ -167,12 +185,48 @@ border-top: 16px solid #55537F;
 */
 
 
-
+/*
 #list_surround {
 margin-left: 88px !important;
 width:1200px !important;
 padding-top:15px;
 }
+*/
+
+#list_surround {
+background: none repeat scroll 0 0 #000000;
+margin-left: 80px !important;
+padding-top: px;
+width: 900px !important;
+overflow-y: scroll;
+top:70px;
+bottom: 30px;
+position: fixed;
+border-right: 4px solid #5F6595;
+border-left: 4px solid #5F6595;
+border-bottom: 4px solid #5F6595;
+border-top: 4px solid #5F6595;
+}
+
+#list_surround br
+{display: none;}
+.borderRBL br
+{display: inline-block !important;}
+.borderRBL
+{padding-left: 30px;}
+
+.category_totals
+{margin: 0px 0px 0px 0px;
+text-align: center;
+background-color:transparent;
+color:#22263A;
+font-size: 12px;
+height: 16px;
+line-height: 16px;
+width: auto;
+display: block;
+}
+
 
 /*Scrollbar*/
 
@@ -517,25 +571,24 @@ anime title's header width
 width:400px;
 }
 
-
 /*
-type,chapters box width
+score box width
 */
 
 .td1:nth-of-type(3), .td2:nth-of-type(3){
-width: 70px;
+width: 30px;
 }
 
 /*
-type,chapters header width
+score header width
 */
 
 .table_header:nth-of-type(3) {
-width: 70px;
+width: 30px;
 }
 
 /*
-progress/type manga box width
+type,chapters box width
 */
 
 .td1:nth-of-type(4), .td2:nth-of-type(4){
@@ -543,7 +596,7 @@ width: 70px;
 }
 
 /*
-progress/type manga header width
+type,chapters header width
 */
 
 .table_header:nth-of-type(4) {
@@ -551,10 +604,26 @@ width: 70px;
 }
 
 /*
-tags box width
+progress/type manga box width
 */
 
 .td1:nth-of-type(5), .td2:nth-of-type(5){
+width: 70px;
+}
+
+/*
+progress/type manga header width
+*/
+
+.table_header:nth-of-type(5) {
+width: 70px;
+}
+
+/*
+tags box width
+*/
+
+.td1:nth-of-type(6), .td2:nth-of-type(6){
 width:300px;
 
 }
@@ -563,6 +632,36 @@ width:300px;
 tags header width
 */
 
-.table_header:nth-of-type(5) {
+.table_header:nth-of-type(6) {
 width:300px;
 }
+
+/*
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(3) > strong > a:before {
+    content: "★";
+    font-size: 12px !important;
+}
+
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(6) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(6) > strong > a:before {
+    content: "Start";
+    font-size: 12px !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(7) > strong > a{
+    font-size: 0 !important;
+}
+
+#list_surround > table:nth-child(6) > tbody > tr > td:nth-child(7) > strong > a:before {
+    content: "End";
+    font-size: 12px !important;
+}
+*/
