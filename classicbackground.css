@@ -197,7 +197,7 @@ padding-top:15px;
 background: none repeat scroll 0 0 #000000;
 margin-left: 80px !important;
 padding-top: px;
-width: 900px !important;
+width: 1000px !important;
 overflow-y: scroll;
 top:70px;
 bottom: 30px;
@@ -237,7 +237,7 @@ display: block;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: #5F6595;
   
 }
 
@@ -248,7 +248,7 @@ display: block;
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5F6595;
+  background: #22263A;
 }
 
 /*
@@ -624,7 +624,7 @@ tags box width
 */
 
 .td1:nth-of-type(6), .td2:nth-of-type(6){
-width:300px;
+width:100px;
 
 }
 
@@ -633,7 +633,7 @@ tags header width
 */
 
 .table_header:nth-of-type(6) {
-width:300px;
+width:100px;
 }
 
 /*
