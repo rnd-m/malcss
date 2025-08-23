@@ -45,9 +45,10 @@ background-color: #000000 !important;
 
 .animetitle + small {
 	font-size:px !important;
-	position:absolute;	
-	padding-top: 2px;
+	position:relative;	
+	padding-top: px;
 	padding-left: 5px;
+	bottom:4px;
 }
 /*AIRING, REWATCHING, NOT YET AIRED - REPLACEMENT*/
 /*
@@ -293,7 +294,7 @@ border-color: #22263A;
 padding: 2px;
 background-color: #000;
 
-height:25px;
+height:27px;
 }
 
 /*
@@ -308,7 +309,7 @@ border-style: solid;
 border-color: #22263A;
 padding: 2px;
 background-color: #000;
-height:25px;
+height:27px;
 }
 
 /*
