@@ -522,6 +522,8 @@ color:#22263A;
 
 #list_surround small a {
     font-size: 0 !important;
+	position:relative;
+	top:2px;
 }
 #list_surround small a:before {
     content: " — ";
