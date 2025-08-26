@@ -45,10 +45,11 @@ background-color: #000000 !important;
 
 .animetitle + small {
 	font-size:px !important;
-	position:relative;	
-	padding-top: px;
-	padding-left: 5px;
-	bottom:4px;
+	position:absolute;	
+	padding-top: 3px;
+	padding-left: px;
+	bottom:px;
+	left: 434px;
 }
 /*AIRING, REWATCHING, NOT YET AIRED - REPLACEMENT*/
 /*
