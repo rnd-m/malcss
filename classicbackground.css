@@ -304,7 +304,7 @@ padding: 2px;
     text-overflow: ellipsis;
 	position:relative;
 }
-
+/*
 .animetitle:visited {
 	color:#cad0f2 !important;
 	text-decoration:none;
@@ -314,7 +314,7 @@ padding: 2px;
 	color:#cad0f2 !important;
 	text-decoration:underline;
 }
-
+*/
 .animetitle + small {
 	font-size:px !important;
 	position:absolute;	
