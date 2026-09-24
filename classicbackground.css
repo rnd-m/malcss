@@ -42,26 +42,6 @@ background-color: #000000 !important;
 }
 
 
-.animetitle + small {
-	font-size:px !important;
-	position:absolute;	
-	padding-top: 2px;
-	padding-left: px;
-	bottom:px;
-	left: 434px;
-}
-/*AIRING, REWATCHING, NOT YET AIRED - REPLACEMENT*/
-/*
-.animetitle + small {
-	font-size:0px !important;
-}
-.animetitle + small:before {
-	content: "◉";
-    font-size: 11px !important;
-	color: #3CA2C4;
-}
-*/
-
 /* REMOVE CAPTCHA  */
 
 .grecaptcha-badge { visibility: hidden; }
@@ -82,25 +62,6 @@ display:none !important;
 #mal_control_strip img  {
 display:none !important;
 }
-
-/*
-#copyright
-{display: none !important;
-position: fixed;
-bottom: 33px;
-width: 375px;
-height: 16px !important;
-line-height: 16px;
-margin: auto;
-text-transform: uppercase;
-font-family: Verdana;
-font-size: 8px;
-background-color: #dfdfdf;
-color: #BCD9F0;
-border-top-right-radius: 4px;
-text-indent: 3px;
-cursor: default;}
-*/
 
 #copyright {
 color:#22263A !important;
@@ -335,9 +296,7 @@ padding: 2px;
 .animetitle
 {
     font-weight: bold;
-    /* font-size: 16px; */
-    /* line-height: 2.5em; */
-    /* color: #bbb; */
+	color:#cad0f2 !important;
     display: inline-block;
     max-width: 350px;
     overflow: hidden;
@@ -345,6 +304,26 @@ padding: 2px;
     text-overflow: ellipsis;
 	position:relative;
 }
+
+.animetitle:visited {
+	color:#cad0f2 !important;
+	text-decoration:none;
+}
+
+.animetitle:hover{
+	color:#cad0f2 !important;
+	text-decoration:underline;
+}
+
+.animetitle + small {
+	font-size:px !important;
+	position:absolute;	
+	padding-top: 2px;
+	padding-left: px;
+	bottom:px;
+	left: 434px;
+}
+
 
 /* Currently watching */
 .status_not_selected > a[href*="status=1"], .status_selected > a[href*="status=1"] {
