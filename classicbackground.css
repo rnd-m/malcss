@@ -1,22 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body
-	{
-background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwAO5zEz2Nf10NkKqH1LAtJr-HhmB3ahXAGYBux_XETlS);
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: top left;
-background-size: cover;
-margin: 0;	
-font-family: "Roboto", sans-serif;
-font-size: 15.00px;
-background-color: #000000 !important;
+/* body */
 
+body
+{
+	background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwAO5zEz2Nf10NkKqH1LAtJr-HhmB3ahXAGYBux_XETlS);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	margin: 0;	
+	font-family: "Roboto", sans-serif;
+	font-size: 15.00px;
+	background-color: #000000 !important;
 }
 
+/* list_surround */
 
-#mal_control_strip td div, #mal_control_strip a  {
-  font-family: "Roboto", sans-serif !important;
+#list_surround 
+{
+	background: none repeat scroll 0 0 #000000;
+	background-color: rgba(10, 10, 15, 0.85) !important;
+	margin-left: 80px !important;
+	width: 1200px !important;
+	overflow-y: scroll;
+	top:100px;
+	bottom: 30px;
+	position: fixed;
+	border-right: 4px solid #5F6595;
+	border-left: 4px solid #5F6595;
+	border-bottom: 4px solid #5F6595;
+	border-top: 4px solid #5F6595;
+}
+
+#list_surround br {display: none;}
+.borderRBL br {display: inline-block !important;}
+.borderRBL {padding-left: 30px;}
+
+#mal_control_strip td div, #mal_control_strip a  
+{
+    font-family: "Roboto", sans-serif !important;
 	font-size: 10px;
 	text-decoration: none !important;
     color:#5F6595 !important;
@@ -41,7 +64,6 @@ background-color: #000000 !important;
   border-width: 1px;
 }
 
-
 /* REMOVE CAPTCHA  */
 
 .grecaptcha-badge { visibility: hidden; }
@@ -49,7 +71,6 @@ background-color: #000000 !important;
 display:none !important;
  }
  
-
 td#mal_cs_pic {
 display:none !important;
 }
@@ -63,6 +84,8 @@ display:none !important;
 display:none !important;
 }
 
+/* copyright */
+
 #copyright {
 color:#353b5a !important;
 }
@@ -71,12 +94,6 @@ color:#353b5a !important;
 display:none !important;
 color:#FFFFFF !important;
 }
-
-/*
-td.category_totals {
-color:#22263A !important;
-}
-*/
 
 /*
 REMOVE LINES FROM MENU BAR
@@ -120,63 +137,12 @@ background: #22263A;
 FIX MENU BAR TO THE TOP
 Keep this on the bottom if you want to keep the top bar fixed to the top.
 */
+
 #mal\_control\_strip
 {
 font-family: Consolas !important;
 position: fixed !important;
 }
-
-/* MINIMIZED LIST TABLE
-Right and top control the position of the table on the page. The percentage after is how far the list goes across the page from the right or top of the page. For example, right: 50%; moves the list 50% across the page from the right. You can change "right" to "left" to position it from the right instead of the left. Width and height control the width and height of your list, keep it smaller than your screen so the table stays minimal.
-*/
-/*
-#list_surround {
-background: none repeat scroll 0 0 #ECEBF1;	
-left: 88px !important;
-top: 100px !important;
-padding-top: 0px;
-width: 820px;
-height: 800px;
-overflow-y: scroll;
-position: fixed;
-border-right: 3px solid #55537F;
-border-left: 3px solid #55537F;
-border-bottom: 3px solid #55537F;
-border-top: 16px solid #55537F;
-}
-*/
-
-
-/*
-#list_surround {
-margin-left: 88px !important;
-width:1200px !important;
-padding-top:15px;
-}
-*/
-
-#list_surround {
-background: none repeat scroll 0 0 #000000;
-background-color: rgba(10, 10, 15, 0.85) !important;
-margin-left: 80px !important;
-padding-top: px;
-width: 1200px !important;
-overflow-y: scroll;
-top:70px;
-bottom: 30px;
-position: fixed;
-border-right: 4px solid #5F6595;
-border-left: 4px solid #5F6595;
-border-bottom: 4px solid #5F6595;
-border-top: 4px solid #5F6595;
-}
-
-#list_surround br
-{display: none;}
-.borderRBL br
-{display: inline-block !important;}
-.borderRBL
-{padding-left: 30px;}
 
 .category_totals
 {margin: 0px 0px 0px 0px;
@@ -239,10 +205,6 @@ text-decoration: underline;
 }
 
 
-/*LIST BORDERS
-You can change the color of the border with border-color. You can increase the size of the border by increasing the px amount after any of the border-width codes. They're all set to 1px- make sure you increase all the border widths the same amount. Leave the border amounts that are set to zero alone. 
-*/
-
 /*
 // Alternating row color 1
 */
@@ -295,6 +257,25 @@ padding: 2px;
 }
 
 
+/*HEADER TITLE*/
+
+.header_title 
+{
+	display: block;
+	background-color: #5F6595;
+	text-transform:uppercase;
+	width: 1208px;
+	height:23px;
+	font-size: 1.0em;
+	font-weight:bold;
+	color: #22263A;
+    text-align: center;
+    vertical-align: middle;
+	position:fixed;
+	top:70px;
+	left:80px;
+	padding-top:7px;
+}
 
 
 
@@ -310,17 +291,7 @@ padding: 2px;
     text-overflow: ellipsis;
 	position:relative;
 }
-/*
-.animetitle:visited {
-	color:#cad0f2 !important;
-	text-decoration:none;
-}
 
-.animetitle:hover{
-	color:#cad0f2 !important;
-	text-decoration:underline;
-}
-*/
 .animetitle + small {
 	font-size:px !important;
 	position:absolute;	
@@ -468,20 +439,6 @@ top: 170px;
 top: 195px;
 }
 
-/*HEADER TITLE*/
-
-.header_title {
-display: table-cell;
-background-color: #5F6595;
-text-transform:uppercase;
-width: 1200px;
-height:25px;
-font-size: 1.0em;
-font-weight:bold;
-color: #22263A;
-    text-align: center;
-    vertical-align: middle;
-}
 
 
 
