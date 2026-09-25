@@ -2,7 +2,7 @@
 
 body
 	{
-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwAO5zEz2Nf10NkKqH1LAtJr-HhmB3ahXAGYBux_XETlS);
+background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://image.myanimelist.net/ui/5LYzTBVoS196gvYvw3zjwAO5zEz2Nf10NkKqH1LAtJr-HhmB3ahXAGYBux_XETlS);
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-position: top left;
@@ -157,7 +157,7 @@ padding-top:15px;
 
 #list_surround {
 background: none repeat scroll 0 0 #000000;
-background-color: rgba(0, 0, 0, 0.8) !important;
+background-color: rgba(10, 10, 15, 0.85) !important;
 margin-left: 80px !important;
 padding-top: px;
 width: 1200px !important;
@@ -249,10 +249,12 @@ You can change the color of the border with border-color. You can increase the s
 
 .td1
 {
-color: #5F6595;
+/*color: #5F6595;*/
+color: #a3abc7;
 border-width: 0px 1px 1px 0px;
 border-style: solid;
-border-color: #22263A;
+/*border-color: #22263A;*/
+border-color: #353b5a;
 padding: 2px;
 background-color: transparent !important;
 height:28px;
@@ -264,10 +266,12 @@ height:28px;
 
 .td2
 {
-color: #5F6595;
+/*color: #5F6595;*/
+color: #a3abc7;	
 border-width: 0px 1px 1px 0px;
 border-style: solid;
-border-color: #22263A;
+/*border-color: #22263A;*/
+border-color: #353b5a;
 padding: 2px;
 background-color: transparent !important;
 height:28px;
@@ -283,8 +287,10 @@ height:25px;
 color: #9B9B9B;
 border-width: 1px 1px 1px 0px;
 border-style: solid;
-border-color: #22263A;
-background-color: #22263A;
+/*border-color: #22263A;
+background-color: #22263A;*/
+border-color: #353b5a;
+background-color: #353b5a;
 padding: 2px;
 }
 
