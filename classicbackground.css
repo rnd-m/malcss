@@ -29,7 +29,7 @@ body
 	position: fixed;
 	border-right: 4px solid #5F6595;
 	border-left: 4px solid #5F6595;
-	border-bottom: 4px solid #5F6595;
+	border-bottom: 22px solid #5F6595;
 	border-top: 4px solid #5F6595;
 }
 
@@ -87,7 +87,13 @@ display:none !important;
 /* copyright */
 
 #copyright {
-color:#353b5a !important;
+	color:#353b5a !important;
+    display: block;
+    position: fixed;
+    bottom: 32px;
+    padding-left: 1px;
+    left: 769px;
+    font-size: 14px;	
 }
 
 #recaptcha-terms {
@@ -145,15 +151,18 @@ position: fixed !important;
 }
 
 .category_totals
-{margin: 0px 0px 0px 0px;
-text-align: center;
-background-color:transparent;
-color:#353b5a;
-font-size: 12px;
-height: 16px;
-line-height: 16px;
-width: auto;
-display: block;
+{   
+	margin: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: transparent;
+    color: #353b5a;
+    font-size: 14px;
+    line-height: 16px;
+    width: auto;
+    display: block;
+    position: fixed;
+    bottom: 32px;
+    padding-left: 2px;
 }
 
 
