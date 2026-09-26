@@ -255,7 +255,7 @@ height:28px;
 .table_header
 {
 height:25px;
-color: #9B9B9B;
+color: #8e95ba;
 border-width: 1px 1px 1px 0px;
 border-style: solid;
 /*border-color: #22263A;
@@ -507,7 +507,7 @@ Number's header width
 
 .table_header:nth-of-type(1) {
 width: 40px;
-color:#9B9B9B;
+color:;
 }
 
 
